@@ -20,3 +20,7 @@ npx json-server db.json -p 4000
 ```bash
 npm test
 ```
+5. Si tienes problemas para iniciar el run dev en el puerto 3000 (que es el predeterminado en el proyecto), puedes utilizar el siguiente comando:
+```bash
+npm run dev -- -p 5000 #o cualquier otro que tengas disponible
+```
