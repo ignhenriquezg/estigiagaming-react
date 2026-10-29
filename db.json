@@ -1,0 +1,220 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "codigo": "STG-001",
+      "nombre": "Mouse Gamer Estigia V32",
+      "categoria": "Periféricos",
+      "precio": 49990,
+      "precioOferta": 39990,
+      "enOferta": true,
+      "stock": 15,
+      "stockCritico": 5,
+      "imagen": "/imagenes/producto-1.jpg",
+      "descripcion": "Sensor óptico de 26.000 DPI y 58 gramos de peso."
+    },
+    {
+      "id": "2",
+      "codigo": "STG-002",
+      "nombre": "Teclado Mecánico Zagreus Pro",
+      "categoria": "Periféricos",
+      "precio": 89990,
+      "precioOferta": 74990,
+      "enOferta": true,
+      "stock": 12,
+      "stockCritico": 5,
+      "imagen": "/imagenes/producto-2.jpg",
+      "descripcion": "Switches mecánicos lubricados y chasis de aluminio."
+    },
+    {
+      "id": "3",
+      "codigo": "STG-003",
+      "nombre": "Monitor Curvo Hades 240Hz",
+      "categoria": "Monitores",
+      "precio": 259990,
+      "precioOferta": 259990,
+      "enOferta": false,
+      "stock": 4,
+      "stockCritico": 5,
+      "imagen": "/imagenes/producto-3.jpg",
+      "descripcion": "Panel Fast IPS curvo de 27 pulgadas y 1ms de respuesta."
+    },
+    {
+      "id": "4",
+      "codigo": "STG-004",
+      "nombre": "Auriculares Melinoe Hyper",
+      "categoria": "Audio",
+      "precio": 64990,
+      "precioOferta": 54990,
+      "enOferta": true,
+      "stock": 10,
+      "stockCritico": 4,
+      "imagen": "/imagenes/producto-4.jpg",
+      "descripcion": "Sonido envolvente 7.1 con almohadillas viscoelásticas."
+    },
+    {
+      "id": "5",
+      "codigo": "STG-005",
+      "nombre": "Gabinete Umbral Flame X2",
+      "categoria": "Componentes",
+      "precio": 79990,
+      "precioOferta": 79990,
+      "enOferta": false,
+      "stock": 2,
+      "stockCritico": 5,
+      "imagen": "/imagenes/producto-5.jpg",
+      "descripcion": "Chasis con vidrio templado y 4 ventiladores ARGB."
+    },
+    {
+      "id": "6",
+      "codigo": "STG-006",
+      "nombre": "Tarjeta Gráfica RTX 5060",
+      "categoria": "Componentes",
+      "precio": 389990,
+      "precioOferta": 359990,
+      "enOferta": true,
+      "stock": 8,
+      "stockCritico": 3,
+      "imagen": "/imagenes/producto-6.jpg",
+      "descripcion": "8GB GDDR7 con doble ventilador axial y DLSS."
+    },
+    {
+      "codigo": "STG-007",
+      "nombre": "Audífonos Hades",
+      "categoria": "Audio",
+      "precio": 50000,
+      "precioOferta": 50000,
+      "enOferta": false,
+      "stock": 10,
+      "stockCritico": 5,
+      "imagen": "/imagenes/producto-1.jpg",
+      "descripcion": "PRUEBA",
+      "id": "xLstEzLCrz4"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "Periféricos",
+      "descripcion": "Mouses, teclados y accesorios."
+    },
+    {
+      "id": "2",
+      "nombre": "Monitores",
+      "descripcion": "Pantallas gamer de alta fluidez."
+    },
+    {
+      "id": "3",
+      "nombre": "Componentes",
+      "descripcion": "Tarjetas de video y gabinetes."
+    },
+    {
+      "id": "4",
+      "nombre": "Audio",
+      "descripcion": "Auriculares y sonido envolvente."
+    }
+  ],
+  "usuarios": [
+    {
+      "run": "214089572",
+      "nombre": "Ignacio Isaí",
+      "apellidos": "Henríquez Galleguillos",
+      "correo": "ign.henriquezg@duoc.cl",
+      "clave": "admin123",
+      "rol": "Administrador",
+      "region": "Metropolitana",
+      "comuna": "Lo Prado",
+      "direccion": "Av. San Pablo 5400",
+      "id": "ov8YWDci_uI"
+    },
+    {
+      "run": "185432104",
+      "nombre": "Maximiliano",
+      "apellidos": "Pérez",
+      "correo": "max.perez@gmail.com",
+      "clave": "max1234",
+      "rol": "Vendedor",
+      "region": "Metropolitana",
+      "comuna": "Santiago",
+      "direccion": "Alameda 1230",
+      "id": "_nJxu75QmB8"
+    },
+    {
+      "run": "179653234",
+      "nombre": "Daniel Alonso",
+      "apellidos": "Montero Valenzuela",
+      "correo": "daniel.m@profesor.duoc.cl",
+      "clave": "profe123",
+      "rol": "Administrador",
+      "region": "Metropolitana",
+      "comuna": "Providencia",
+      "direccion": "Antonio Varas 666",
+      "id": "FpjYmqqG0ug"
+    },
+    {
+      "run": "204853210",
+      "nombre": "Mauricio",
+      "apellidos": "Gomes Garcia",
+      "correo": "mauri03gomes@gmail.com",
+      "clave": "cliente1",
+      "rol": "Cliente",
+      "region": "Metropolitana",
+      "comuna": "Maipú",
+      "direccion": "Av. Pajaritos 3100",
+      "id": "RFc7Xp7JT-w"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "titulo": "Caso Curioso #1: Interruptores ópticos en teclados gamer",
+      "resumen": "Descubre por qué los switches ópticos eliminan el retardo mecánico tradicional al registrar tus comandos con un haz de luz.",
+      "imagen": "/imagenes/blog-1.jpg",
+      "contenido": "Los interruptores ópticos sustituyen el contacto físico metálico por un haz de luz infrarroja. Cuando presionas una tecla, se interrumpe la luz y el teclado registra la acción inmediatamente.",
+      "ventajas": [
+        "Mayor velocidad sin retardo de rebote.",
+        "Durabilidad superior a 100 millones de pulsaciones.",
+        "Mayor resistencia ante polvo o partículas."
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Caso Curioso #2: Temperaturas en tarjetas gráficas",
+      "resumen": "Aprende la importancia del flujo de aire y la presión positiva en gabinetes modernos para evitar caídas de FPS.",
+      "imagen": "/imagenes/blog-2.jpg",
+      "contenido": "Cuando una tarjeta de video supera los 80°C bajo carga pesada, los ventiladores aceleran y el procesador gráfico puede reducir su frecuencia para evitar sobrecalentamiento (estrangulamiento térmico).",
+      "ventajas": [
+        "Asegurar que el gabinete tenga ventiladores frontales que metan aire fresco.",
+        "Mantener despejada la salida trasera y superior del chasis.",
+        "Limpiar periódicamente el polvo de los disipadores."
+      ]
+    }
+  ],
+  "ordenes": [
+    {
+      "id": "1",
+      "numero": "#20240705",
+      "fecha": "2026-10-20",
+      "nombre": "Mauricio",
+      "apellidos": "Gomes Garcia",
+      "correo": "mauri03gomes@gmail.com",
+      "calle": "Av. Pajaritos 3100",
+      "departamento": "Depto 603",
+      "region": "Metropolitana",
+      "comuna": "Maipú",
+      "indicaciones": "Dejar en conserjería",
+      "items": [
+        {
+          "id": "1",
+          "nombre": "Mouse Gamer Estigia V32",
+          "precio": 39990,
+          "cantidad": 1,
+          "imagen": "/imagenes/producto-1.jpg"
+        }
+      ],
+      "total": 39990,
+      "estado": "Pagado"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
